@@ -1,9 +1,9 @@
 
 redis-options:
-  addr: 127.0.0.1:6379
+  addr: r-2ze11fjvcdhq5rg9lx.redis.rds.aliyuncs.com:6379
   username:
-  password:
-  db: 0
+  password: bgr-JXF6yqj8xac4awt
+  db: 10
 
 auth-mode: 1  # 0 Anonymous, 1 Username, 2 ClientID
 auth-prefix: comqtt-auth

@@ -96,7 +96,7 @@ func realMain(ctx context.Context) error {
 	if cfg.PprofEnable {
 		pprof()
 	}
-
+	fmt.Println("cfg.Redis.Options.Addr:", confFile)
 	//init log
 	log.Init(&cfg.Log)
 	if cfg.Log.Enable && cfg.Log.Output == log.OutputFile {
